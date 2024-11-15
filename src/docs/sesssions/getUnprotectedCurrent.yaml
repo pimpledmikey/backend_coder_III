@@ -1,0 +1,16 @@
+paths:
+  /api/sessions/unprotectedCurrent:
+    get:
+      summary: Obtener la sesión actual sin protección
+      tags:
+        - Sessions
+      responses:
+        200:
+          description: Sesión actual sin protección
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  user:
+                    $ref: '#/components/schemas/User'

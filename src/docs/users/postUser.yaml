@@ -1,0 +1,69 @@
+paths:
+  /api/users:
+    post:
+      summary: Crear un nuevo usuario
+      tags:
+        - Users
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/requestBodies/userBody'
+      responses:
+        201:
+          description: Usuario creado
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+  /api/sessions/register:
+    post:
+      summary: Registrar un nuevo usuario
+      tags:
+        - Sessions
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/requestBodies/userBody'
+      responses:
+        201:
+          description: Usuario registrado
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+  /api/sessions/login:
+    post:
+      summary: Iniciar sesión
+      tags:
+        - Sessions
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                  description: Email del usuario
+                password:
+                  type: string
+                  description: Contraseña del usuario
+              example:
+                email: amiguel.requenaa@gmail.com
+                password: Soldier10-
+      responses:
+        200:
+          description: Sesión iniciada
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  token:
+                    type: string
+                    description: Token de autenticación

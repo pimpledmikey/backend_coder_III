@@ -1,0 +1,40 @@
+2024-10-14 22:12:57 [[31merror[39m]: [GET] api/mocks/mockingusers Users validation failed: password: Path `password` is required., email: Path `email` is required., last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-10-14 22:13:27 [[31merror[39m]: [GET] api/mocks/mockingusers Users validation failed: password: Path `password` is required., email: Path `email` is required., last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-10-14 22:16:42 [[31merror[39m]: [GET] api/mocks/mockingusers Users validation failed: password: Path `password` is required., email: Path `email` is required., last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-10-14 22:18:15 [[31merror[39m]: [GET] api/mocks/mockingusers Users validation failed: password: Path `password` is required., email: Path `email` is required., last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-10-14 22:26:03 [[31merror[39m]: [GET] api/mocks/mockingusers Users validation failed: password: Path `password` is required., email: Path `email` is required., last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-10-14 22:26:09 [[31merror[39m]: [GET] api/mocks/mockingusers Users validation failed: password: Path `password` is required., email: Path `email` is required., last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-10-14 22:27:07 [[31merror[39m]: [GET] api/mocks/mockingusers Users validation failed: password: Path `password` is required., email: Path `email` is required., last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-10-15 13:31:32 [[31merror[39m]: undefined this.userServices.getUserByEmail is not a function
+2024-10-15 13:32:23 [[31merror[39m]: undefined this.userServices.getUserByEmail is not a function
+2024-10-15 13:34:00 [[31merror[39m]: undefined this.userServices.getUserByEmail is not a function
+2024-10-15 13:37:41 [[31merror[39m]: undefined this.userServices.getUserByEmail is not a function
+2024-10-15 13:39:33 [[31merror[39m]: undefined this.userServices.getUserByEmail is not a function
+2024-10-15 13:52:13 [[31merror[39m]: _id Cast to ObjectId failed for value "{ email: 'amiguel.requena@gmail.com' }" (type Object) at path "_id" for model "Users"
+2024-10-15 13:54:37 [[31merror[39m]: _id Cast to ObjectId failed for value "{ email: 'amiguel.requena@gmail.com' }" (type Object) at path "_id" for model "Users"
+2024-10-15 13:54:39 [[31merror[39m]: _id Cast to ObjectId failed for value "{ email: 'amiguel.requena@gmail.com' }" (type Object) at path "_id" for model "Users"
+2024-10-15 13:54:39 [[31merror[39m]: _id Cast to ObjectId failed for value "{ email: 'amiguel.requena@gmail.com' }" (type Object) at path "_id" for model "Users"
+2024-10-15 13:54:40 [[31merror[39m]: _id Cast to ObjectId failed for value "{ email: 'amiguel.requena@gmail.com' }" (type Object) at path "_id" for model "Users"
+2024-10-15 13:54:41 [[31merror[39m]: _id Cast to ObjectId failed for value "{ email: 'amiguel.requena@gmail.com' }" (type Object) at path "_id" for model "Users"
+2024-10-15 13:57:37 [[31merror[39m]: _id Cast to ObjectId failed for value "{ email: 'amiguel.requena@gmail.com' }" (type Object) at path "_id" for model "Users"
+2024-10-15 14:14:43 [[31merror[39m]: undefined Expected "payload" to be a plain object.
+2024-10-15 14:21:25 [[31merror[39m]: undefined Nuestro error
+2024-10-15 14:29:50 [[31merror[39m]: undefined usersService is not defined
+2024-10-15 14:33:49 [[31merror[39m]: undefined usersService is not defined
+2024-10-15 14:34:29 [[31merror[39m]: undefined Parameter "filter" to findOne() must be an object, got "670ec588864dfa565943db09" (type string)
+2024-10-15 14:51:13 [[31merror[39m]: undefined User id 670ec588864dfa565943db09 not found
+2024-10-15 16:03:02 [[31merror[39m]: undefined User with email amiguel.requena@gmail.com not found
+2024-10-15 16:03:16 [[31merror[39m]: undefined User with email amiguel.requena@gmail.com not found
+2024-10-15 16:03:51 [[31merror[39m]: undefined User with email amiguel.requena@gmail.com not found
+2024-10-15 16:03:56 [[31merror[39m]: undefined User with email amiguel.requena@gmail.com not found
+2024-10-15 16:04:00 [[31merror[39m]: undefined User with email amiguel.requena@gmail.com not found
+2024-10-15 16:09:13 [[31merror[39m]: undefined User with email amiguel.requena@gmail.com not found
+2024-10-15 16:09:18 [[31merror[39m]: undefined User with email amiguel.requena@gmail.com not found
+2024-10-15 16:11:12 [[31merror[39m]: undefined User with email amiguel.requena@gmail.com not found
+2024-10-15 16:12:02 [[31merror[39m]: undefined User with email amiguel.requena@gmail.com not found
+2024-11-15 12:17:35 [[31merror[39m]: _id Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Users"
+2024-11-15 12:39:24 [[31merror[39m]: undefined this.userServices.getByEmail is not a function
+2024-11-15 12:41:13 [[31merror[39m]: undefined this.userServices.getByEmail is not a function
+2024-11-15 12:44:38 [[31merror[39m]: undefined User with email amiguel.requenaaaa@gmail.com not found
+2024-11-15 12:44:38 [[31merror[39m]: undefined User with email amiguel.requenaaaa@gmail.com not found
+2024-11-15 12:45:33 [[31merror[39m]: undefined User with email amigsuel.requenaa@gmail.com not found

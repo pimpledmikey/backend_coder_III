@@ -1,0 +1,45 @@
+components:
+  schemas:
+    Adoption:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Id de la adopción
+        userId:
+          type: string
+          description: Id del usuario
+        petId:
+          type: string
+          description: Id de la mascota
+        adoptionDate:
+          type: string
+          format: date
+          description: Fecha de la adopción
+      example:
+        id: 5f7e9f9b5f7e9f9b5f7e9f9b
+        userId: 5f7e9f9b5f7e9f9b5f7e9f9b
+        petId: 5f7e9f9b5f7e9f9b5f7e9f9b
+        adoptionDate: 2023-10-01
+  requestBodies:
+    adoptionBody:
+      type: object
+      properties:
+        userId:
+          type: string
+          description: Id del usuario
+        petId:
+          type: string
+          description: Id de la mascota
+        adoptionDate:
+          type: string
+          format: date
+          description: Fecha de la adopción
+      required:
+        - userId
+        - petId
+        - adoptionDate
+      example:
+        userId: 5f7e9f9b5f7e9f9b5f7e9f9b
+        petId: 5f7e9f9b5f7e9f9b5f7e9f9b
+        adoptionDate: 2023-10-01

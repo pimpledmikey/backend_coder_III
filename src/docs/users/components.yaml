@@ -1,0 +1,60 @@
+components:
+  schemas:
+    User:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Id del usuario
+        name:
+          type: string
+          description: Nombre del usuario
+        email:
+          type: string
+          description: Correo electrónico del usuario
+        age:
+          type: integer
+          description: Edad del usuario
+      example:
+        id: 5f7e9f9b5f7e9f9b5f7e9f9b
+        name: Juan Perez
+        email: juan.perez@example.com
+        age: 30
+    UserUpdate:
+      type: object
+      properties:
+        name:
+          type: string
+          description: Nombre del usuario
+        email:
+          type: string
+          description: Correo electrónico del usuario
+        age:
+          type: integer
+          description: Edad del usuario
+      example:
+        name: Juan Perez
+        email: juan.perez@example.com
+        age: 30
+  requestBodies:
+    userBody:
+      type: object
+      properties:
+        name:
+          type: string
+          description: Nombre del usuario
+        email:
+          type: string
+          description: Correo electrónico del usuario
+        age:
+          type: integer
+          description: Edad del usuario
+      required:
+        - name
+        - email
+        - email
+        - age
+      example:
+        name: Juan Perez
+        email: juan.perez@example.com
+        age: 30

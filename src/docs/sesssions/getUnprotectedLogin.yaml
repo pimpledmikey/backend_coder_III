@@ -1,0 +1,19 @@
+paths:
+  /api/sessions/unprotectedLogin:
+    get:
+      summary: Iniciar sesión sin protección
+      tags:
+        - Sessions
+      responses:
+        200:
+          description: Sesión iniciada sin protección
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    description: Mensaje de éxito
+                  user:
+                    $ref: '#/components/schemas/User'

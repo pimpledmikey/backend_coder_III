@@ -1,0 +1,16 @@
+paths:
+  /api/sessions/current:
+    get:
+      summary: Obtener la sesión actual
+      tags:
+        - Sessions
+      responses:
+        200:
+          description: Sesión actual
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  user:
+                    $ref: '#/components/schemas/User'
